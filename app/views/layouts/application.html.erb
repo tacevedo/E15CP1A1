@@ -18,6 +18,8 @@
 
   <body>
     <%= render 'shared/navbar' %>
+    <%= alert %>
+    <%= notice %>
 
     <% if logged? %>
       current user name: <%= current_user.name %>
